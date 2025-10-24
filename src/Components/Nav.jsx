@@ -46,7 +46,7 @@ const Nav = () => {
         <img
           src={mobile}
           alt="Background"
-          className="w-full h-full top-5 object-cover md:hidden"
+          className="w-full h-full object-cover md:hidden"
         />
         <img
           src={desktop}
@@ -57,7 +57,7 @@ const Nav = () => {
 
       {/* Content */}
       <div className="relative z-20 flex flex-col items-center justify-center h-96 md:h-[500px] px-4">
-        <h1 className="text-white text-2xl md:text-4xl font-bold mb-8 text-center">
+        <h1 className="text-white mt-36 md:mt-0 text-2xl md:text-4xl font-bold mb-8 text-center">
           IP Address Tracker
         </h1>
 
