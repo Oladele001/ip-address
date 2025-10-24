@@ -45,7 +45,7 @@ const Section = () => {
         <MapContainer
           center={center}
           zoom={13}
-          style={{ height: "100vh", width: "100%" }}
+          style={{ height: "100vh", width: "100vw" }}
         >
           <TileLayer
             url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
